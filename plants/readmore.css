@@ -1,0 +1,262 @@
+:root{
+    --green:#80ad60e8;
+}
+
+*{
+   margin:0; padding: 0;
+   box-sizing:border-box;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   outline: none; border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+
+}
+section{
+    padding:8rem 9%;
+   }
+
+  
+
+.heding{
+    text-align:center;
+     font-size: 4rem;
+     color:#fff;
+     padding: 1rem;
+     margin: 2rem 0;
+     background: rgba(133, 7, 93, 0.05);
+}
+
+.about .row{
+    display:flex;
+    align-items: center;
+    gap: 2,2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .contact h3{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #11010d;
+   }
+   .about .row .contact p{
+    font-size: 1.5rem;
+    color: #1f0215;
+    padding: 5rem 0;
+    padding-top: 1rem;
+    line-height:1.5 ;
+   }
+   .about .row .image-container img{
+    background: #fff;
+   
+    border: 2rem solid rgb(251, 255, 248);
+    padding: 2rem;
+    display:flex;
+    align-items:normal;
+   }
+
+  .care-for-plant {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .care-for-plant .img img{
+    background: #fff;
+    height: 35rem;
+    padding: 2rem;
+    display: flex;
+    align-items:baseline;
+    flex: 1 1 18rem;
+    transform: scale(1.1);
+  }
+  .care-for-plant .number-plants h2{
+    color: #040000;
+    font-size: 3rem ;
+    
+}
+.care-for-plant .number-plants p{
+    color: #000000;
+    padding-bottom: 1rem;
+    font-size: 2rem ;
+    padding: 1rem;
+}
+.care-for-plant .number-plants ul{
+  
+    display:inline-block;
+    text-align:left;
+    list-style-type: square;
+    height: 1.8rem;
+    font-size: 2rem;
+    border-right: 0rem;
+    color: #000000;
+}
+
+.imag .colors-plants span {
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 3rem;
+    color:#000000 ;
+}
+
+.imag .images  img{
+    position:relative;
+    float: none;
+    padding-top:2rem;
+    overflow: hidden;
+    height:25rem;
+    
+    text-align: center;
+}
+
+.imag .images:hover  img{
+    transform: scale(1.1);
+}
+ 
+.imag .images  input{
+    background-color:#1b1a1a; 
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 0.4rem;
+    cursor: pointer;
+    opacity: 0.5;
+   
+}
+.imag input{
+    background-color:#181818; 
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 0.4rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    header{
+
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+    .home{
+        background-position: left;
+    }
+    .home .contact h3{
+        font-size: 5rem;
+    }
+    .home .contact span{
+        font-size: 2.5rem;
+    }
+    .icons-container  .icons h3{
+        font-size: 2rem ;
+       }
+    
+       .icons-container  .icons span{
+        font-size: 1.7rem ;
+       }
+}
+
+
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left:0; right:0;
+        background: #fff;
+        border-top: .1rem solid rgba(0, 0, 0,1);
+        clip-path: polygon(0 0, 100% 0,100% 0, 0 0);
+    }
+
+    header #toggler:checked ~.navbar{
+        clip-path: polygon(0 0,100% 0,100% 100%,0% 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: 1rem solid rgba(0, 0, 0,.1);
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+   
+    .heading{
+        font-size:3rem ;
+    }
+
+}

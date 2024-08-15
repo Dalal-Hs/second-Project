@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = device-width,initial-scale=1.0">
+      <title> plant Orchid Phalaenopsis</title>
+      
+         <!-- font awesome sdn link-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+         <!--custom css file link -->
+         <link rel="stylesheet" href="Style.css">
+         <link rel="stylesheet" href="readmore.css">
+         
+         <style>
+            body{
+                background-color: rgba(251, 228, 249, 0.945);
+            }
+            ul.a {
+              list-style-position: outside;
+            }
+            
+            ul.b {
+              list-style-position: outside;
+            }
+            </style>
+    </head>
+
+    <body>
+        <!--header section starts-->
+        <header>
+
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+        
+        <a href="#" class="logo">Blooms<span>.</span></a>
+        
+        <nav class="navbar"> 
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+           
+           
+        </div>
+        
+        </header>
+        <!--header section ends-->
+
+        <!--about section starts-->
+        <section class="about" id="about">
+            <h1 class="heading"><span> about </span> us plant Orchid Phalaenopsis </h1>
+            
+           <div class="row">
+           
+               <div class="video-container">
+                   <video src="images/Bloom Orchid video.mp4" loop autoplay muted></video>
+               </div>
+                 <div class="contact">
+                    <br>
+                   <h3>plant Orchid Phalaenopsis</h3>
+                 <p>
+                    Butterfly orchid, an inner plant is a flowering bush of several colors,
+                   <br>  graded and very attractive, Native to Southeast Asia, India, the Philippines and Northern Australia,
+                     <br> its species includes a large number of species that may reach 22,000, Combined, they have 6 to 15 flowers and may increase Floral,
+                     <br>  purple and yellow colors, with thick, dark green streamlined leaves surrounding the floral stand home-friendly ", which has been produced by modern means.
+                 </p>
+                 </div>
+           </div>
+           </section>
+              <!--about section ends-->
+              
+               <!--about2 section starts-->
+               <section class="care-for-plant">
+                <div class="img">
+                 <img src="images/Orchid Phalaenopsis 4.jpg" alt="">
+                </div>
+                <div class="number-plants">
+                    <h2>How to care for Orchid Phalaenopsis?</h2>
+                    <ul class="a">
+                      <li>Humidity and watering.</li>
+                      <li>Lighting.</li>
+                      <li>temperature.</li>
+                      <li>semolina.</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <h2>Regular pruning of the plant :</h2>
+                    <p>-Orchid plant is in need of regular pruning, and pruning is done using a set of steps and instructions:</p>
+                    <br>
+                    <ul class="b">
+                      <li>Sharp scissors must be used to trim. This helps that cutting becomes cleaner and protects orchid plant from exposure to disease.</li>
+                      <li>Orchid flowers are cut from root directly</li>
+                      <li>The leg carrying flowers must be cut from the base. This helps the plant to grow roots and leaves.</li>
+                    </ul>
+                </div>
+               
+               </section>
+                <!--about2 section ends-->
+                <!--imag section starts-->
+                <section class="imag" id="imag">
+                  <div class=" images">
+                    <h1 class="colors-plants"> <span>colors plants</span></h1>
+                    <div class="image">
+                      <img src="../project/images/Orchid 5.jpg" alt="">
+                       <img src="../project/images/Orchid 6.jpg" alt="">
+                       <img src="../project/images/orchid 7.jpg" alt="">
+                       <img src="../project/images/orchid 8.jpg" alt="">
+                          <br>
+                          <br>
+                       <button onclick="window.open('///C:/Users/Huawei/Desktop/Web%20Technology/html%20coursc/project/index.html')">  Back ></button>
+                  </div>
+                 
+                  </div>
+                   
+                </section>
+                 <!--imag section ends-->
+
+    </body>
+</html>
